@@ -3,8 +3,13 @@ b = int(input("Enter second number: "))
 
 # Comparison operators
 print("a == b:", a == b)
+
 print("a != b:", a != b)
+
 print("a > b:", a > b)
+
 print("a < b:", a < b)
+
 print("a >= b:", a >= b)
+
 print("a <= b:", a <= b)
