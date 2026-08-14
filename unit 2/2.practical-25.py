@@ -1,4 +1,6 @@
-for num in range(2, 101):
+limit = int(input("Enter the upper limit: "))
+
+for num in range(2, limit + 1):
     is_prime = True
     for i in range(2, int(num ** 0.5) + 1):
         if num % i == 0:
