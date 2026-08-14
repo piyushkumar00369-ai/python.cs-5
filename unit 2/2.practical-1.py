@@ -1,26 +1,32 @@
-first_number = float(input("Enter first number: "))
-second_number = float(input("Enter second number: "))
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
 
-addition = first_number + second_number
-subtraction = first_number - second_number
-multiplication = first_number * second_number
+# Addition
+add = a + b
 
-if second_number == 0:
-    division = "Not defined (division by zero)"
-    modulus = "Not defined (modulus by zero)"
-    floor_division = "Not defined (division by zero)"
-else:
-    division = first_number / second_number
-    modulus = first_number % second_number
-    floor_division = first_number // second_number
+# Subtraction
+sub = a - b
 
-exponentiation = first_number ** second_number
+# Multiplication
+mul = a * b
 
-print("\nArithmetic Results")
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
-print("Modulus:", modulus)
-print("Floor Division:", floor_division)
-print("Exponentiation:", exponentiation)
+# Division
+div = a / b
+
+# Modulus
+mod = a % b
+
+# Floor Division
+floor_div = a // b
+
+# Exponentiation
+exp = a ** b
+
+# Display the results
+print("Addition:", add)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
+print("Division:", div)
+print("Modulus:", mod)
+print("Floor Division:", floor_div)
+print("Exponentiation:", exp)

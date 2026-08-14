@@ -1,5 +1,9 @@
-a = [int(input("Enter first value for a: ")), int(input("Enter second value for a: ")), int(input("Enter third value for a: "))]
-b = [int(input("Enter first value for b: ")), int(input("Enter second value for b: ")), int(input("Enter third value for b: "))]
+a = [int(input("Enter first value for a: ")), 
+     int(input("Enter second value for a: ")), 
+     int(input("Enter third value for a: "))]
+b = [int(input("Enter first value for b: ")), 
+     int(input("Enter second value for b: ")), 
+     int(input("Enter third value for b: "))]
 c = a
 
 # Using is

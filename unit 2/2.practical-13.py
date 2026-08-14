@@ -15,6 +15,6 @@ else:
 print("Grade:", grade)
 
 if grade == "Failed":
-    print("You need to work harder next time.")
+    print("You need to work harder.")
 else:
     print("Excellent! Keep it up.")
