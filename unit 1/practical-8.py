@@ -8,4 +8,4 @@ print("\nTraversing List using while loop:")
 i = 0
 while i < len(Subject):
     print(Subject[i])
-    i += 1
+    i += 1 

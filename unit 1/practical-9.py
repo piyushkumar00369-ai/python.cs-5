@@ -8,7 +8,7 @@ else:
 
 # Check whether a value exists in the list
 if 18 in numbers:
-    print("18 is present in the list.")
+    print("\n18 is present in the list.")
 else:
     print("18 is not present in the list.")
 

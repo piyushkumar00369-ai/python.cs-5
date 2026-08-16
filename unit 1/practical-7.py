@@ -1,8 +1,8 @@
-Subject=["Python ", "Dbms", "networking", "java", "c++"]
+Subject=['Python', 'Dbms', 'networking', 'java', 'c++']
 
 print("Subject List:", Subject)
 
-print("first Subject:", Subject[0])
+print("\nfirst Subject:", Subject[0])
 print("third Subject:", Subject[2])
 
 Subject[1] = "C"

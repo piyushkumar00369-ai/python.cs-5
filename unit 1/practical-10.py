@@ -1,18 +1,24 @@
-# Accept 5 numbers from the user and store them in a list
 numbers = []
-for i in range(5):
-    num = int(input(f"Enter number {i+1}: "))
+
+for i in range(10):
+    num = int(input("Enter a number {}: ".format(i + 1)))
     numbers.append(num)
 
-# Display maximum and minimum values
-print("Original list:", numbers)
-print("Maximum value:", max(numbers))
-print("Minimum value:", min(numbers))
+    print("\n Maximum number is:", max(numbers))
+    print("Minimum number is:", min(numbers))
 
-# Modify one element
-index = int(input("Enter the index (0 to 4) of the element to modify: "))
-new_value = int(input("Enter the new value: "))
-numbers[index] = new_value
+    total = sum(numbers)
+    average = total / len(numbers)
 
-# Print the updated list
-print("Updated list:", numbers)
+    print("Sum of numbers:", total)
+    print("Average of numbers:", average)
+
+    print("\n Even numbers are:")
+    for num in numbers:
+        if num % 2 == 0:
+            print(num)
+
+    print("\n Odd numbers are:")
+    for num in numbers:
+        if num % 2 != 0:
+            print(num)
