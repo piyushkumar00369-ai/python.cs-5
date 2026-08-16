@@ -1,7 +1,12 @@
 numbers = []
 
 for i in range(10):
-    num = int(input("Enter a number {}: ".format(i + 1)))
+    while True:
+        try:
+            num = int(input("Enter a number {}: ".format(i + 1)))
+            break
+        except ValueError:
+            print("Please enter a valid integer.")
     numbers.append(num)
 
 print("\nMaximum number is:", max(numbers))
