@@ -23,10 +23,10 @@ floor_div = a // b
 exp = a ** b
 
 # Display the results
-print("Addition:", add)
-print("Subtraction:", sub)
-print("Multiplication:", mul)
-print("Division:", div)
-print("Modulus:", mod)
-print("Floor Division:", floor_div)
-print("Exponentiation:", exp)
+print("\nAddition:", add)
+print("\nSubtraction:", sub)
+print("\nMultiplication:", mul)
+print("\nDivision:", div)
+print("\nModulus:", mod)
+print("\nFloor Division:", floor_div)
+print("\nExponentiation:", exp)

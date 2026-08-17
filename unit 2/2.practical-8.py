@@ -7,9 +7,9 @@ b = [int(input("Enter first value for b: ")),
 c = a
 
 # Using is
-print("a is b:", a is b)
+print("\na is b:", a is b)
 print("a is c:", a is c)
 
 # Using is not
-print("a is not b:", a is not b)
+print("\na is not b:", a is not b)
 print("a is not c:", a is not c)
