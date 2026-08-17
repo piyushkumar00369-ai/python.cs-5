@@ -1,4 +1,13 @@
 num = int(input("Enter a number: "))
 
+print("\nMultiplication Table of", num)
+print("--------------------------")
+
+i = 1
+
 for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+    result = num * i
+    print(num, "x", i, "=", result)
+
+print("--------------------------")
+print("Multiplication table completed successfully!")
