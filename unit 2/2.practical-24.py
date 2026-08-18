@@ -9,6 +9,6 @@ else:
             is_prime = False
             break
     if is_prime:
-        print("Prime")
+        print("\nPrime")
     else:
-        print("Not prime")
+        print("\nNot prime")
